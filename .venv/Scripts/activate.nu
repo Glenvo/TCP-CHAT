@@ -32,7 +32,7 @@ export-env {
       }
     }
 
-    let virtual_env = 'C:\Users\GAL\PycharmProjects\TCP_CHAT\.venv'
+    let virtual_env = 'C:\Users\GAL\PycharmProjects\TCP-CHAT\.venv'
     let bin = 'Scripts'
 
     let is_windows = ($nu.os-info.family) == 'windows'

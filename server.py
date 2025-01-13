@@ -44,7 +44,7 @@ class ChatServer:
                         # Send message to the target client
                         self.clients[target].send(f"[{client_name} -> You]: {message}".encode('utf-8'))
                         # Notify the sender that the message was sent
-                        client_socket.send(f"[You -> {target}]: {message}".encode('utf-8'))
+                       # client_socket.send(f"[You -> {target}]: {message}".encode('utf-8'))
                     else:
                         # Notify the sender that the target client was not found
                         client_socket.send(f"[Server]: User {target} not found.".encode('utf-8'))

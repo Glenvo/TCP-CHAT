@@ -1,4 +1,4 @@
-@set "VIRTUAL_ENV=C:\Users\GAL\PycharmProjects\TCP_CHAT\.venv"
+@set "VIRTUAL_ENV=C:\Users\GAL\PycharmProjects\TCP-CHAT\.venv"
 
 @set "VIRTUAL_ENV_PROMPT="
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (
