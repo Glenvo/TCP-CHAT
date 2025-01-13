@@ -25,6 +25,12 @@ class ChatServer:
                     if not msg:
                         break  # Client disconnected
 
+                        # Check for "exit"
+                    if msg.lower() == "exit":
+                         print(f"{client_name} requested to exit.")
+                         # Optionally notify other users or just break
+                         break
+
                     # Message format validation
                     if ':' not in msg:
                         client_socket.send("[Invalid message format. Use 'name:message'.".encode('utf-8'))
